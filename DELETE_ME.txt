@@ -1,0 +1,15 @@
+AUTH: /api/v1/auth/signup POST
+      /api/v1/auth/signin POST
+      /api/v1/auth/signout POST
+
+AUTHENTICATE ROUTES
+
+USERS:  /api/v1/users/me GET
+        /api/v1/users/me PATCH
+        /api/v1/useers/me DELETE
+
+TOODS:  /api/v1/todos GET
+        /api/v1/todos POST
+        /api/v1/todos/:todoId GET
+        /api/v1/todos/:todoId PATCH
+        /api/v1/todos/:todoId: DELETE
